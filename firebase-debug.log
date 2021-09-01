@@ -1,0 +1,21 @@
+[debug] [2021-09-01T12:27:37.769Z] ----------------------------------------------------------------------
+[debug] [2021-09-01T12:27:37.770Z] Command:       /Users/emmanuelfabiani/.nvm/versions/node/v14.5.0/bin/node /Users/emmanuelfabiani/.nvm/versions/node/v14.5.0/bin/firebase init
+[debug] [2021-09-01T12:27:37.771Z] CLI Version:   9.16.5
+[debug] [2021-09-01T12:27:37.771Z] Platform:      darwin
+[debug] [2021-09-01T12:27:37.771Z] Node Version:  v14.5.0
+[debug] [2021-09-01T12:27:37.772Z] Time:          Wed Sep 01 2021 13:27:37 GMT+0100 (British Summer Time)
+[debug] [2021-09-01T12:27:37.772Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-01T12:27:37.776Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-01T12:27:37.776Z] > authorizing via signed-in user (emmanuelfabiani23@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/emmanuelfabiani/Desktop/Desk/airbnb-react-clone
+

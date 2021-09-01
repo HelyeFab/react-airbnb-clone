@@ -1,0 +1,40 @@
+@use'../abstracts' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+
+  html{
+    font-size: 62.5%;
+    @include respond(xsmall) {
+      font-size: 56.25%;//1rem = 9px, 9/16 = 56.25%
+    }
+
+    @include respond(small) {
+      font-size: 62.25%;//1rem = 10px, 10/16 = 50%
+    }
+  
+     @include respond(medium) {
+       font-size: 62.25%;//1rem = 10px, 10/16 = 62.5%
+     }
+  
+     @include respond(large) {
+       font-size: 87.5% //1rem = 12px, 12/16 = 87.5%
+     }
+     @include respond(xlarge) {
+      font-size: 100% //1rem = 16px, 16/16 = 100%
+    }
+  
+     @include respond(xxlarge) {
+       font-size: 112.5% //1rem = 18px, 18/16 = 112.5%
+     }
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #636363;
+   
+
+}

@@ -1,0 +1,20 @@
+@use './abstracts/_index.scss' as *; //this works with an index in the relevant folder*/
+
+// Abstract
+@use'./abstracts/_mixins.scss';
+
+@use'./base/_base.scss';
+
+// Pages
+@use './pages/_home.scss';
+@use './pages/_searchPage.scss';
+
+
+// Components
+@use './components/_header.scss';
+@use './components/_banner.scss';
+@use './components/_search.scss';
+@use './components/_card.scss';
+@use './components/_footer.scss';
+@use './components/searchResult.scss';
+

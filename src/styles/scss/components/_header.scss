@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+
+  &__icon {
+    object-fit: contain;
+    width: 100px;
+    margin-left: 80px;
+  }
+
+  &__center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 999px;
+    padding: 1.2rem;
+
+    & > input{
+        border: none;
+        outline-width: 0;
+       
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    width: 15vw;
+  }
+}

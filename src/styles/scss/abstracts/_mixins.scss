@@ -1,0 +1,30 @@
+// ! MEDIA QUERY MANAGER
+// $breakpoint argument choices🇵: 
+// -small
+// -medium
+// -large
+// -xlarge
+// -xxlarge
+
+
+@mixin respond($breakpoint) {
+    @if $breakpoint==xsmall {
+        @media (max-width: 639px) { @content };
+    }
+
+    @if $breakpoint==small {
+        @media (min-width: 640px) { @content };
+    }
+    @if $breakpoint==medium {
+        @media (min-width: 768px) { @content };
+    }
+    @if $breakpoint==large {
+        @media (min-width: 1024px) { @content };
+    }
+    @if $breakpoint==xlarge {
+        @media (min-width: 1280px) { @content };
+    }
+    @if $breakpoint==xxlarge {
+        @media (min-width: 1536px) { @content };
+    }
+}

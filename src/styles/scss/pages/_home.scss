@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.home{
+    &__section{
+        display: flex;
+        padding: 30px;
+    }
+
+}
